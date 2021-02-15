@@ -14,7 +14,7 @@ def add_student(name, grade)
   else
     @roster[grade] = [name]
   # @roster[:grade] << name
-end
+  end
 end
 
 def grade(student_grade)
