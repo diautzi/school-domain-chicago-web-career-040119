@@ -27,7 +27,7 @@ end
 def sort
   sorted_hash = {}
   @roster.sort.each do |grade, name|
-    sorted_hash[grade]= name.sort
+    sorted_hash[grade] = name.sort
   end
   sorted_hash
   end
